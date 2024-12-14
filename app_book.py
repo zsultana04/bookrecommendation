@@ -7,7 +7,7 @@ model = joblib.load('book_category_model.pkl')
 label_encoders = joblib.load('label_encoders.pkl')
 
 # Title of the app
-st.title("Book Category Predictor")
+st.title("Book Category Predictor by Zinnat")
 
 # Dropdown for Gender
 gender = st.selectbox("Select Gender", ['Male', 'Female'])
